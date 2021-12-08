@@ -1,0 +1,39 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  color:white;
+}
+.clock {
+  display: inline
+}
+
+.morning-bg {
+  background-image: url(../images/morning.jpg);
+}
+.day-bg {
+  background-image: url(../images/day.jpg);
+}
+.evening-bg {
+  background-image: url(../images/evening.jpg);
+}
+.night-bg {
+  background-image: url(../images/night.jpg);
+  background-repeat: round;
+  
+}
+.main_bg_night {
+  background-color: #003153 !important; 
+}
+.main_bg_morning {
+  background-color: #D5713F; 
+}
+.main_bg_day {
+  background-color: #425E17; 
+}
+.main_bg_evening {
+  background-color: #47402E; 
+}
